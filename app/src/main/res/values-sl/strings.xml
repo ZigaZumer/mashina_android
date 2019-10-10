@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mashina</string>
+    <string name="name">Ime</string>
+    <string name="surname">Priimek</string>
+    <string name="login">Prijava</string>
+    <string name="required_field">To polje je obvezno</string>
+    <string name="email">Elektronski naslov</string>
+    <string name="code">Koda</string>
+    <string name="login_error">Napaka pri prijavi</string>
+    <string name="empty_list">Seznam je prazen</string>
+    <string name="token_error">Napaka pri sinhronizaciji</string>
+    <string name="history_title">Poti</string>
+    <string name="firm_headquarters">Firma in sedež podjetja</string>
+    <string name="driver">Voznik</string>
+    <string name="workplace">Delovno mesto</string>
+    <string name="home_address">Domači naslov</string>
+    <string name="vehicle">Vozilo</string>
+    <string name="rout">Pot</string>
+    <string name="single_travel_title">Potni nalog</string>
+    <string name="select">Izberi</string>
+    <string name="days">Dni</string>
+    <string name="hours">h</string>
+    <string name="minutes">min</string>
+    <string name="strt_km">Začetni km:</string>
+    <string name="end_km">Končni km:</string>
+    <string name="purpose_description">Opis namena</string>
+    <string name="start_trip">Odpri nalog</string>
+    <string name="finish_trip">Zaključi nalog</string>
+    <string name="purpose_error">Namen je prazen</string>
+    <string name="location_error">Lokacija ni bila nastavljena</string>
+    <string name="vehicle_error">Vozilo ni izbrano</string>
+    <string name="open_order_success">Nalog je bil uspešbo odprt</string>
+    <string name="mileage_error">Končna razdalja je manjša od začetne</string>
+    <string name="description_error">Opis je obvezen</string>
+</resources>

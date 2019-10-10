@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.travelorder.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_mainHistoryFragment"
+            app:destination="@id/mainHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/travelOrderBaseFragment"
+        android:name="com.example.travelorder.TravelOrderBaseFragment"
+        android:label="fragment_travel_order_base"
+        tools:layout="@layout/fragment_travel_order_base" >
+        <action
+            android:id="@+id/action_travelOrderBaseFragment_to_travelOrderFinalFragment"
+            app:destination="@id/travelOrderFinalFragment" />
+        <action
+            android:id="@+id/action_travelOrderBaseFragment_to_mainHistoryFragment"
+            app:destination="@id/mainHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/travelOrderFinalFragment"
+        android:name="com.example.travelorder.TravelOrderFinalFragment"
+        android:label="fragment_travel_order_final"
+        tools:layout="@layout/fragment_travel_order_final" />
+    <fragment
+        android:id="@+id/mainHistoryFragment"
+        android:name="com.example.travelorder.history.MainHistoryFragment"
+        android:label="fragment_main_history"
+        tools:layout="@layout/fragment_main_history" >
+        <action
+            android:id="@+id/action_mainHistoryFragment_to_travelOrderBaseFragment"
+            app:destination="@id/travelOrderBaseFragment" />
+    </fragment>
+</navigation>

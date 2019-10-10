@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mashina</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="login">Login</string>
+    <string name="required_field">This field is required</string>
+    <string name="email">E-mail</string>
+    <string name="code">Code</string>
+    <string name="login_error">Error on login</string>
+    <string name="empty_list">This list is empty</string>
+    <string name="token_error">Sync error</string>
+    <string name="history_title">Travels</string>
+    <string name="firm_headquarters">Firm and headquarters</string>
+    <string name="driver">Driver</string>
+    <string name="workplace">Workplace</string>
+    <string name="home_address">Home address</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="rout">Rout</string>
+    <string name="single_travel_title">Single travel</string>
+    <string name="select">Select</string>
+    <string name="days">Days</string>
+    <string name="hours">h</string>
+    <string name="minutes">min</string>
+    <string name="strt_km">Start km:</string>
+    <string name="end_km">End km:</string>
+    <string name="purpose_description">Purpose description</string>
+    <string name="start_trip">Start trip</string>
+    <string name="finish_trip">Finish trip</string>
+    <string name="purpose_error">Purpose is empty</string>
+    <string name="location_error">Location not set</string>
+    <string name="vehicle_error">Vehicle not selected</string>
+    <string name="open_order_success">Trip successfully opened</string>
+    <string name="mileage_error">End mileage is higher then start</string>
+    <string name="description_error">Description is required</string>
+</resources>
